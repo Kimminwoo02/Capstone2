@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/b11f0f5caa.js" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Song+Myung&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar__logo">
+            <a href=""><i class="fab fa-behance"></i>  a good man!</a>
+        </div>
+        <ul class="navbar__menu">
+
+            <li>
+                <a href="">금연</a></li>
+            <li>
+                <a href="">학교폭력</a></li>
+            <li>
+                <a href="">마스크</a></li>
+            <li>
+                <a href="">게시판</a></li>
+        </ul>
+        <div class="navbar__icons">
+            <li><a href=""><i class="fab fa-youtube-square"></i></a></li>
+            <li><a href=""><i class="fab fa-facebook-square"></i></a></li>
+        </div>
+
+        <div class="navigation">
+            <div class="ham-btn" onclick="showNav()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <div class="links">
+                <div class="link">
+                    <a href="">금연</a>
+                </div>
+                <div class="link">
+                    <a href="">학교폭력</a>
+                </div>
+                <div class="link">
+                    <a href="">마스크</a>
+                </div>
+                <div class="link">
+                    <a href="">게시판</a>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+    <div class="slidebox">
+        <input type="radio" name="slide" id="slide01" checked>
+        <input type="radio" name="slide" id="slide02">
+        <input type="radio" name="slide" id="slide03">
+        <input type="radio" name="slide" id="slide04">
+        <ul class="slidelist">
+            <li class="slideitem">
+                <div>
+                    <label for="slide04" class="left"></label>
+                    <label for="slide02" class="right"></label>
+                    <a><img src="./img/intro-bg.jpg"></a>
+                </div>
+            </li>
+            <li class="slideitem">
+                <div>
+                    <label for="slide01" class="left"> </label>
+                    <label for="slide03" class="right"> </label>
+                    <a><img src="./img/1.png"></a>
+                </div>
+            </li>
+            <li class="slideitem">
+                <div>
+                    <label for="slide04" class="left"></label>
+                    <label for="slide02" class="right"></label>
+                    <a><img src="./img/2.png"></a>
+                </div>
+            </li>
+            <li class="slideitem">
+                <div>
+                    <label for="slide01" class="left"> </label>
+                    <label for="slide03" class="right"> </label>
+                    <a><img src="./img/3.png"></a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>
