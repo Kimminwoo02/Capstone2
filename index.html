@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/b11f0f5caa.js" crossorigin="anonymous"></script>
-    <script src="app.js"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -19,22 +18,9 @@
         <div class="navbar__logo">
             <a href=""><i class="fab fa-behance"></i>  a good man!</a>
         </div>
-        <ul class="navbar__menu">
 
-            <li>
-                <a href="">금연</a></li>
-            <li>
-                <a href="">학교폭력</a></li>
-            <li>
-                <a href="">마스크</a></li>
-            <li>
-                <a href="">게시판</a></li>
-        </ul>
-        <div class="navbar__icons">
-            <li><a href=""><i class="fab fa-youtube-square"></i></a></li>
-            <li><a href=""><i class="fab fa-facebook-square"></i></a></li>
-        </div>
 
+        <!-- 토글 시작-->
         <div class="navigation">
             <div class="ham-btn" onclick="showNav()">
                 <span></span>
@@ -59,6 +45,25 @@
             </div>
         </div>
     </nav>
+    <div class="jb-box">
+        <video muted autoplay loop>
+          <source src="./video/Network - 12716.mp4" type="video/mp4">
+          <strong>Your browser does not support the video tag.</strong>
+        </video>
+        <div class="jb-text">
+            <blockquote contenteditable="true"><q>더 나은 사회를 만들어요.</q>
+
+            </blockquote>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <!--슬라이드 영역 -->
     <div class="slidebox">
         <input type="radio" name="slide" id="slide01" checked>
         <input type="radio" name="slide" id="slide02">
@@ -69,7 +74,7 @@
                 <div>
                     <label for="slide04" class="left"></label>
                     <label for="slide02" class="right"></label>
-                    <a><img src="./img/intro-bg.jpg"></a>
+                    <a><img src="./img/로고.png"></a>
                 </div>
             </li>
             <li class="slideitem">
@@ -81,20 +86,38 @@
             </li>
             <li class="slideitem">
                 <div>
-                    <label for="slide04" class="left"></label>
-                    <label for="slide02" class="right"></label>
+                    <label for="slide02" class="left"></label>
+                    <label for="slide04" class="right"></label>
                     <a><img src="./img/2.png"></a>
                 </div>
             </li>
             <li class="slideitem">
                 <div>
-                    <label for="slide01" class="left"> </label>
-                    <label for="slide03" class="right"> </label>
-                    <a><img src="./img/3.png"></a>
+                    <label for="slide03" class="left"> </label>
+                    <label for="slide01" class="right"> </label>
+                    <a><img src="./img/화분.png"></a>
                 </div>
             </li>
         </ul>
     </div>
+    <!--슬라이드 끝-->
+
+
+    <!--  about 영역  -->
+
+    <div class="side_left">
+        <img src="./img/intro-bg.jpg" alt="">
+
+    </div>
+
+    <div class="mid">
+        <h3>부끄러운 사람이 되지 맙시다.</h3> 우리는 이 사회를 더욱더 좋은 사회로 만들어 나갈 의무가 있습니다.
+    </div>
+
+
+
+
+    <script type="text/javascript" src="app.js"></script>
 </body>
 
 </html>
